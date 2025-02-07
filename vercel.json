@@ -1,0 +1,7 @@
+{
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }],
+  "build": {
+    "command": "npm run build",
+    "outputDirectory": "dist"
+  }
+}
